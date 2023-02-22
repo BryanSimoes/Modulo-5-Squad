@@ -1,6 +1,6 @@
 class Doador {
-    constructor(id__doador, nome, cpf, email, senha,){
-        this.id__doador = id__doador
+    constructor(id_doador, nome, cpf, email, senha,){
+        this.id_doador = id_doador
         this.nome = nome
         this.cpf = cpf
         this.email = email

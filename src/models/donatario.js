@@ -5,7 +5,6 @@ class Donatario {
         this.cpf = cpf
         this.email = email
         this.senha = senha
-       
     }
 }
 module.export = Donatario
