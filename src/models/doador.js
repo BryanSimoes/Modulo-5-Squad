@@ -7,4 +7,4 @@ class Doador {
         this.senha = senha 
     }
 }
-export default  Doador
+export default Doador

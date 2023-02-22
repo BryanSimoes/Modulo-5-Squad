@@ -23,16 +23,16 @@ bdDoador.push(doador4)
 
 //DONÁTARIO
 
-const donatario = new Donatario(1, 'Victor Renato Kaue', '29134350411', 'renato@outlook.com.br', 'ck5buidgde', new Date())
+const donatario = new Donatario(1, 'Victor Renato Kaue', 'renato@outlook.com.br', 'ck5buidgde', new Date())
 bdDonatario.push(donatario)
 
-const donatario2 = new Donatario(2, 'Wallace Correia Miranda', '47296440422', 'wallace.miranda@gmail.com', '#vbtSQ@8priW', new Date())
+const donatario2 = new Donatario(2, 'Wallace Correia Miranda', 'wallace.miranda@gmail.com', '#vbtSQ@8priW', new Date())
 bdDonatario.push(donatario2)
 
-const donatario3 = new Donatario(3, 'Vanessa Cruz Santomauro', '11648375243', 'vanessasantomauro@bol.com.br', '35wdrvfhYmA', new Date())
+const donatario3 = new Donatario(3, 'Vanessa Cruz Santomauro', 'vanessasantomauro@bol.com.br', '35wdrvfhYmA', new Date())
 bdDonatario.push(donatario3)
 
-const donatario4 = new Donatario(4, 'Kamily Ximenes Farias', '24977267443', 'kamily.farias@protonmail.com', '7og!c0p7+Fs*', new Date())
+const donatario4 = new Donatario(4, 'Kamily Ximenes Farias', 'kamily.farias@protonmail.com', '7og!c0p7+Fs*', new Date())
 bdDonatario.push(donatario4)
 
 //ITEM

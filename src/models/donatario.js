@@ -1,8 +1,7 @@
 class Donatario {
-    constructor(id_donatario, nome, cpf, email, senha,){
+    constructor(id_donatario, nome, email, senha,){
         this.id_donatario = id_donatario
         this.nome = nome
-        this.cpf = cpf
         this.email = email
         this.senha = senha
     }

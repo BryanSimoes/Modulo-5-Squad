@@ -1,8 +1,8 @@
 class Item {
-    constructor(id_item, nome, condicao){
-        this.id_item = id_item
+    constructor(cod_item, nome, condicao){
+        this.cod_item = cod_item
         this.nome = nome
-        this.estado = condicao
+        this.condicao = condicao
     }
 }
 module.export = Item
