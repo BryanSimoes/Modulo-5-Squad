@@ -1,4 +1,5 @@
-import bd from '../infra/bd.js';
+const sqlite3 = require('sqlite3').verbose();
+const db = new sqlite3.Database('./database.db');
 
 
 //== DOADOR
@@ -21,10 +22,16 @@ VALUES
 (4, 'Kamily Ximenes Farias', '24977267443', 'kamily.farias@protonmail.com', '7og!c0p7+Fs*')
 `
 
-function criaTabelaUSr(){
+function criaTabelaDoador(){
     db.run(DOADOR_SCHEMA, (erro) => {
    if (erro) console.log("Erro ao criar tabela DOADOR")
   });
+}
+
+function populaTabelaDoador() {
+    db.run(ADD_PRODUTOS_DATA, (error)=> {
+       if (error) console.log("Erro ao popular tabela DOADOR");
+    });
 }
 
 
@@ -47,10 +54,16 @@ VALUES
 (4, 'Kamily Ximenes Farias', 'kamily.farias@protonmail.com', '7og!c0p7+Fs*')
 `
 
-function criaTabelaUSr(){
+function criaTabelaDonatario(){
     db.run(DONATARIO_SCHEMA, (erro) => {
    if (erro) console.log("Erro ao criar tabela DONATARIO")
   });
+}
+
+function populaTabelaDonatario() {
+    db.run(ADD_PRODUTOS_DATA, (error)=> {
+       if (error) console.log("Erro ao popular tabela Donatario");
+    });
 }
 
 
@@ -72,12 +85,25 @@ VALUES
 (4, 'Banheira infatil + conjunto de higiene básico', 'Razoável')
 `
 
-function criaTabelaUSr(){
+function criaTabelaItem(){
     db.run(ITEM_SCHEMA, (erro) => {
    if (erro) console.log("Erro ao criar tabela ITEM")
   });
 }
 
-bd.seriaLize( () => {
-    criaTabelaUSr();
-});
+function populaTabelaItem() {
+    db.run(ADD_PRODUTOS_DATA, (error)=> {
+       if (error) console.log("Erro ao popular tabela ITEM");
+    });
+}
+
+db.serialize( ()=> {
+    criaTabelaDoador();
+    populaTabelaDoador();
+
+    criaTabelaDonatario();
+    populaTabelaDonatario();
+
+    criaTabelaItem();
+    populaTabelaItem();
+})

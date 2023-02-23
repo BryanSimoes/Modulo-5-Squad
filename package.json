@@ -23,6 +23,8 @@
   "homepage": "https://github.com/BryanSimoes/Modulo-5-Squad#readme",
   "keywords": [],
   "dependencies": {
-    "express": "^4.18.2"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.4"
   }
 }
