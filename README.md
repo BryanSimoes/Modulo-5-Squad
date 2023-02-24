@@ -1,17 +1,16 @@
 # API DE DOAÇÕES 
-<h1 align center> 
 
 ![Banner  projeto](https://user-images.githubusercontent.com/112557569/221071866-ed959409-b8ae-44b9-b112-a229ba1241a5.png)
 
-</h1>
-## <h2> Objetivo </h2> 
+
+## <h2> :dart: Objetivo </h2> 
 O projeto proposto pela Resilia era para desenvolver uma proposta de API, que seria um produto minimo viavel. Nossa API deve ser capaz de fazer requisições e implementar todas operações CRUD. 
 Além disso, o propósito desse projeto é colocar em pratica os conhecimentos adquiridos sobre backend e banco de dados. 
 
-## <h2> Tema escolhido</h2>
+## <h2> :closed_book: Tema escolhido</h2>
 O tema escolhido pelo nosso grupo seria uma API de doações voltada  para vitimas de desastres naturais. Sem especificação de temas, buscamos encontrar uma proposta que tenha algum um proposito social e sirva para ajudar as pessoas. 
 
-## <h2> Entidades  </h2> 
+## <h2> :ghost: Entidades  </h2> 
 A partir dessa proposta criamos três entidades bases para execução da proposta minima do projeto. <ul>
 
 
@@ -31,14 +30,19 @@ Essa entidades são.
 A operação CRUD é uma abreviação para as operações básicas de armazenamento de dados em um banco de dados, que são <strong> Create (criação), Read (leitura), Update (atualização) e Delete (exclusão)</strong>. O CRUD é importante porque ele fornece uma estrutura padrão para gerenciar as informações do banco de dados, permitindo que você crie, leia, atualize e exclua registros de maneira consistente e organizada. Com o uso adequado do CRUD, você pode controlar de forma mais eficiente as informações armazenadas em seu banco de dados, garantindo a integridade e a segurança dos dados, além de facilitar o desenvolvimento de novas funcionalidades e a manutenção do sistema.
 
 
-# <h1> O Que você precisa saber para executar o projeto </h1> 
-<h2> Como instalar as dependências do projeto? </h2>
+# <h2>  :mortar_board: O Que você precisa saber para executar o projeto  </h2> 
 
-<h2> Como executar o projeto? </h2>
+<h2> :triangular_flag_on_post: Instalando as depedências? </h2> <ul>
+  
+  <li> npm init</li>
+  <li> npm install express </li>
+<li> npm install mysql</li>
+  <li> npm install cors </li></ul>
 
-<h2> Quais são as rotas do projeto? <h2>
 
-# Nossa Squad 
+<h2> :triangular_flag_on_post:  Quais são as rotas do projeto? <h2>
+
+# <h2> :family: Nossa Squad </h2>
 
 ![Nosso Squad](https://user-images.githubusercontent.com/112557569/221168525-b7bc67b7-4fb9-432e-92c0-325961a95316.png)
 
