@@ -25,7 +25,7 @@ Essa entidades são.
 
 ## <h2> O que é CRUD? </h2>
 
-![61c323afb777801522775611_CRUD  Preview](https://user-images.githubusercontent.com/112557569/221070044-2976721c-5c2a-4e34-bc8a-db8787aa87cc.png)
+![CRUD](https://user-images.githubusercontent.com/112557569/221177332-a597b62a-8875-45d4-a20c-a2246bf62311.png)
 
 A operação CRUD é uma abreviação para as operações básicas de armazenamento de dados em um banco de dados, que são <strong> Create (criação), Read (leitura), Update (atualização) e Delete (exclusão)</strong>. O CRUD é importante porque ele fornece uma estrutura padrão para gerenciar as informações do banco de dados, permitindo que você crie, leia, atualize e exclua registros de maneira consistente e organizada. Com o uso adequado do CRUD, você pode controlar de forma mais eficiente as informações armazenadas em seu banco de dados, garantindo a integridade e a segurança dos dados, além de facilitar o desenvolvimento de novas funcionalidades e a manutenção do sistema.
 
