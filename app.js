@@ -15,12 +15,18 @@ app.get('/', (req, res) => {
   });
 
 // importando os controllers
-import itemControllers from './src/controllers/itemcontrollers.js'
+import movelcontrollers from './src/controllers/movelcontrollers.js'
 import doadorControllers from './src/controllers/doadorcontrollers.js'
 import donatariocontrollers from './src/controllers/donatariocontrollers.js'
+import roupacontrollers from './src/controllers/roupacontrollers.js'
+import produtocontrollers from './src/controllers/produtocontrollers.js'
 
-itemControllers.rotas(app)
-doadorControllers.rotas(app)
+movelcontrollers.rotas(app)
+doadorcontrollers.rotas(app)
 donatariocontrollers.rotas(app)
+roupacontrollers.rotas(app)
+produtocontrollers.rotas(app)
+
+
 
 export default app

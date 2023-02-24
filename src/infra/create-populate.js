@@ -78,17 +78,7 @@ function populaTabelaDonatario() {
   });
 }
 
-///== ITEM
-const ITEM_SCHEMA = `
-CREATE TABLE IF NOT EXISTS ITEM (
-    COD_ITEM INT PRIMARY KEY AUTO_INCREMENT,
-    NOME VARCHAR(64),
-    CONDICAO VARCHAR(64)
-); 
-`;
 
-const ADD_ITEM_DATA = `
-INSERT INTO`
 
 ///== MOVEL
 const MOVEL_SCHEMA = `
