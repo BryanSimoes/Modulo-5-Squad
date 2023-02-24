@@ -37,9 +37,15 @@ A operação CRUD é uma abreviação para as operações básicas de armazename
 
 # Nossa Squad 
 
-Bryan Simões 
-Gabriel Souza 
-Grazielle Firmino 
-Juliane Prado 
-Raquel Sacramento 
+![Nosso Squad](https://user-images.githubusercontent.com/112557569/221168525-b7bc67b7-4fb9-432e-92c0-325961a95316.png)
 
+<ul>
+
+
+<li> Bryan Simões: https://github.com/BryanSimoes </li>
+<li> Gabriel Souza: https://github.com/GabrielSouza2 </li>
+<li> Grazielle Firmino: https://github.com/GraziFirmino </li>
+<li> Juliane Prado: https://github.com/JulianePrado </li>
+<li> Raquel Sacramento: https://github.com/devRaquel  </li>
+
+</ul>
