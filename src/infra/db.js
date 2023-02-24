@@ -1,13 +1,25 @@
-const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database('./src/infra/database.db');
+import mysql from 'mysql';
 
+const db = mysql.createConnection({
+  host: '127.0.0.1',
+  user: 'admin',
+  password: 'admin',
+  database: 'database',
+});
 
-// //Processamento de sinal
-process.on('SIGINT', () =>
-    db.close(() => {
-        console.log('BD encerrado!');
-        process.exit(0);
-    })
-);
+db.connect((err) => {
+  if (err) {
+    console.error(err.message);
+  }
+  console.log('Conectado ao banco de dados.');
+});
 
-module.exports = db;
+//Processamento de sinal
+process.on('SIGINT', () => {
+  db.end(() => {
+    console.log('BD encerrado!');
+    process.exit(0);
+  });
+});
+
+export default db;

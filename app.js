@@ -9,6 +9,11 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
+// Adicionando a rota para a página inicial
+app.get('/', (req, res) => {
+    res.send('Bem-vindo ao nosso projeto em NODE.JS!');
+  });
+
 // importando os controllers
 import itemControllers from './src/controllers/itemcontrollers.js'
 import doadorControllers from './src/controllers/doadorcontrollers.js'
