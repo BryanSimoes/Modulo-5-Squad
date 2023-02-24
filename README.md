@@ -12,14 +12,17 @@ Além disso, o propósito desse projeto é colocar em pratica os conhecimentos a
 O tema escolhido pelo nosso grupo seria uma API de doações voltada  para vitimas de desastres naturais. Sem especificação de temas, buscamos encontrar uma proposta que tenha algum um proposito social e sirva para ajudar as pessoas. 
 
 ## <h2> Entidades  </h2> 
-A partir dessa proposta criamos três entidades bases para execução da proposta minima do projeto. 
+A partir dessa proposta criamos três entidades bases para execução da proposta minima do projeto. <ul>
+
+
+<li>
 
 Essa entidades são. 
-Doador (onde armazenamos informações sobre a pessoa que pretende doar um item). 
+<li> <strong>  Doador: </strong> (onde armazenamos informações sobre a pessoa que pretende doar um item). </li>
 
-Donatario (onde armazenamos as informações sobre a pessoa que precisa de uma doação)
+<li> <strong> Donatario: </strong> (onde armazenamos as informações sobre a pessoa que precisa de uma doação). </li>
 
-Item (onde armazenamos informações sobre os itens a serem doados.)
+<li> <strong> Item: </strong> (onde armazenamos informações sobre os itens a serem doados.) </li>
 
 ## <h2> O que é CRUD? </h2>
 
